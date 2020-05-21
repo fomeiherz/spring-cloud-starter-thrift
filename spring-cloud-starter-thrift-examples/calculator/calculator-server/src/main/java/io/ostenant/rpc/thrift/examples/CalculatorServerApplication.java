@@ -8,10 +8,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 @EnableThriftServer
 @SpringBootApplication
-public class Application {
+public class CalculatorServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(CalculatorServerApplication.class, args);
     }
 
 }

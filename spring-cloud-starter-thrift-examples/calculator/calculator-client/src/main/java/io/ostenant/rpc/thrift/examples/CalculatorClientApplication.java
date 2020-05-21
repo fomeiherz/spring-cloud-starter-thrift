@@ -10,10 +10,10 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableFeignClients
 @EnableDiscoveryClient
 @EnableThriftClient
-public class Application {
+public class CalculatorClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(CalculatorClientApplication.class, args);
     }
 
 }
